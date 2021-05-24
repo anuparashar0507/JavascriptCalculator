@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 
-const clearStyle = { background: '#ac3939' },
-operatorStyle = { background: '#666666' },
+const clearStyle = { background: '#DD1C1A' },
+operatorStyle = { background: '#CBB301' },
 equalsStyle = {
-  background: '#004466',
+  background: '#1098F7',
   position: 'absolute',
-  height: 130,
+  height: 160,
   bottom: 5
 };
 

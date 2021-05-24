@@ -1,4 +1,4 @@
-$button: #4d4d4d;
+$button: #000000;
 @import 'https://fonts.googleapis.com/css?family=Share+Tech+Mono';
 @font-face {
   font-family: 'Digital';
@@ -44,7 +44,8 @@ body {
   min-height: 20px;
   font-family: digital;
   font-size: 20px;
-  color: orange;
+  color: #CBB301;
+  margin: 10px 0 10px 0;
   text-align: right;
   vertical-align: text-top;
   line-height: 20px;
@@ -53,7 +54,7 @@ body {
 }
 
 .outputScreen {
-  font-size: 29px;
+  font-size: 28px;
   font-family: digital;
   color: white;
   text-align: right;
@@ -62,7 +63,7 @@ body {
 
 button {
   position: relative;
-  height: 65px;
+  height: 80px;
   width: 80px;
   color: white;
   outline: 1px solid black;
@@ -72,8 +73,8 @@ button {
   font-size: 20px;
   cursor: default;
   &:hover {
-    color: black;
-    outline: 0.05em solid grey;
+    color: #F1DEDE;
+    outline: 0.05em solid #F1DEDE;
     z-index: 3;
   }
 }
@@ -88,7 +89,7 @@ button {
   margin-top: 15px;
   a {
     text-decoration: none;
-    color: #00264d;
-    line-height: 26px;
+    color: #1098F7;
+    line-height: 32px;
   }
 }
